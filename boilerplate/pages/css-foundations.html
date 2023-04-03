@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles.css">
+    <title>CSS Foundation</title>
+</head>
+<body>
+    <h1>CSS Foundations</h1>
+
+    <h2> Selectors </h2>
+    <p> Selectors are used to select the HTML elements you want to style. </p>
+    <p> There are these selector types: </p>
+    <ul>
+        <li>Universal</li>
+        <li>Type selector</li>
+        <li>Class selector</li>
+        <li>ID selector</li>
+        <li>Grouping selector</li>
+        <li>Chaining selector</li>
+    </ul>
+
+    <h3>Universal Selector</h3>
+    <p> The universal selector selects all elements in the document. Denoted by: * </p>
+    <p> Example: </p>
+    <pre>
+        * {
+            color: red;
+        }
+    </pre>
+
+    <h3>Type Selector</h3>
+    <p> The type selector will select all the elements of the given element type. Denoted by type-id</p>
+    <p> Example: </p>
+    <pre>
+        p {
+            color: red;
+        }
+    </pre> 
+
+    <h3>Class Selector</h3>
+    <p> The class selector will select all the elements with the given class attribute. Denoted by .class-id </p>
+    <p> Example: </p>
+    <pre>
+        .red-text {
+            color: red;
+        }
+    </pre>
+
+    <h3>ID Selector</h3>
+    <p> The ID selector will select the element with the given ID attribute. Denoted by #id </p>
+    <p> Example: </p>
+    <pre>
+        #red-text {
+            color: red;
+        }
+    </pre>
+    <p> Hasthtag immediately by the case-sensitive value of the ID attribute. Common pitfall is going overboard with the ID usage. Don't need to go crazy, chill out.</p>
+
+    <h3>Grouping Selector</h3>
+    <p> The grouping selector will select all the elements that are grouped together. Denoted by selector1, selector2, selector3, ... </p>
+    <p> Example: </p>
+    <pre>
+        p, .red-text, #red-text {
+            color: red;
+        }
+    </pre>
+
+    <h3>Chaining Selector</h3>
+    <p> The chaining selector will select all the elements that are chained together. Denoted by selector1 selector2 selector3 ... </p>
+    <p> Example: </p>
+    <pre>
+        .subsection#preview {
+            color: red;
+        }
+    </pre>
+
+    <h4>Side notes</h4>
+    <p> Descendent combinators: multiple selectors that can be grouped together. Dependent on a hierarchy. </p>
+    <p>Example:</p>
+    <pre>
+        .ancestor .contents {
+            color: red;
+        }
+    </pre>
+
+    <h2>Properties of CSS</h2>
+    <h3>Color and Background-Color</h3>
+    <p> color --> element text color, background-color --> background color of element <br> Can accept HEX, RGB, HSL values</p>
+    <p> Example: </p>
+    <pre>
+        .red-text {
+            color: red;
+            color: #ff0000;
+            color: rgb(255, 0, 0);
+            color: hsl(0, 100%, 50%);
+        }
+    </pre>
+
+    <h3>Tyopgraphy and Text-Align</h3>
+    <ul>
+        <li>font-family: single val or csv. can use "font family name" or generic-family-name</li>
+        <li>font-size: #px</li>
+        <li>font-weight: normal, bold, bolder, lighter, 100-900</li>
+        <li>text-align: center, etc.</li>
+        <li>height, width: auto, #px, ... also good practice to include this with the img attribute because helps with reserving the space before pages load in</li>
+    </ul>
+</body>
+</html>
