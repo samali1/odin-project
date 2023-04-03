@@ -1,35 +1,50 @@
-h1 {
-    color: #a71c1c;
-    font-size: 48px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+/* 
+Color Palette:
+1. ff0000 - red
+2. #b6eab6 - lime green
+3. #a0a0ee - lilac
+4. #f4e8e8 - creme white
+5. #00000 - black
+
+ */
+
+.flex-container {
+    display: flex;
 }
 
-h2 {
-    color: #a71c1c;
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-    text-align: left;
+.item {
+    flex: 1;
 }
 
-h3 {
-    color: blue;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-    text-align: left;
+.selector-nav {
+    line-height: 2em;
+    flex: 1;
 }
 
-pre {
-    color: #a71c1c;
-    font-size: 12px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-    text-align: left;
+.selector-text {
+    background: #f4e8e8;
+    padding: 10px;
+    align-content: flex-start;
+}
+
+.selector-list {
+    background: #f4e8e8;
+    border: 5px solid #a0a0ee;
+    padding: 5px;
+    align-content: stretch;
+}
+
+.selector-content > div {
+    display: flex;
+    border: 2px solid red;
+}
+
+.properties-css {
+    display: flex;
+    flex: 1;
+}
+
+.typography {
+    display: flex;
+    flex: 1;
 }
