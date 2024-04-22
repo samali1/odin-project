@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Foundations</title>
+</head>
+
+<body>
+  <h1>Odin Projet Foundations</h1>
+
+  <h2>Table of Contents</h2>
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="index.html">[PLACEHOLDER]</a></li> <!-- Placeholder for future content -->
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="/projects/recipes/index.html">Recipes</a></li>
+  </ul>
+
+  <h2> Basics of HTML</h2>
+  <p>HTML, CSS, and Javascript work together to help generate dynamic content.
+    HTML is the structure of the page, CSS is the style, and Javascript is
+    the behavior.</p>
+  <p>The first line in your HTML file should be the <strong>DOCTYPE</strong>
+    declaration. This tells the browser what version of HTML the page is
+    written in. The next line is the <strong>html</strong> tag, which wraps
+    all the content on the page. The <strong>head</strong> tag contains the
+    title of the page and any other meta information.
+  </p>
+
+  <h4>Body Element</h4>
+  <p>The <strong>body</strong> tag contains the content that is generated
+    on the page. Here we can use various tags such as <strong>h1</strong>
+    through <strong>h6</strong> for headings, <strong>p</strong> for
+    paragraphs, <strong>ul</strong> and <strong>ol</strong> for lists
+    (unordered and ordered, respectively), and <strong>a</strong> for links.
+  </p>
+
+  <p>Sidenote: for headings, <strong>h1</strong> is the largest.
+    <strong>h6</strong> is the smallest heading. For example, "Basics of
+    HTML" is an <strong>h2</strong> tag, and "Body Element" is an
+    <strong>h4</strong> tag.
+  </p>
+
+  <p>Different text modifications you can do:</p>
+  <ul>
+    <li><strong>strong></strong> will bold</li>
+    <li><em>em</em> will italicize</li>
+    <li>!--- comment ---></li>
+  </ul>
+
+  <!-- Comment CMD+/ -->
+  <!-- or press < ! --- -->
+
+  <h4>Images and Links</h4>
+  <p>The anchor tag <strong>a</strong> can be used to anchor different elements
+    on a page. For example, if you'd like to redirect to a link, you can use
+    the <strong>a</strong> tag. The <strong>img</strong> tag is used to display
+    images on a page. You can specify the source of the image using the
+    <strong>src</strong> attribute. You can also specify the alt text, width,
+    and height of the image using the <strong>alt</strong>,
+    <strong>width</strong>, and <strong>height</strong> attributes,
+    respectively.
+  </p>
+
+  <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project Logo" height="240px" width="240px">
+  <a href="https://www.google.com">Click me to go to Google</a>
+
+  <h4>Anchor elements</h4>
+  <p>The <strong>a</strong> tag allows us to create a link in HTML.
+    The <strong>href</strong> attribute is used to specify the URL of the
+    page the link goes to. The <strong>target</strong> attribute is used to
+    specify where the linked document will be opened.
+  </p>
+
+  <p>There are four possible values for the <strong>target</strong> attribute:</p>
+  <ul>
+    <li><strong>blank</strong> will open the link in a new window</li>
+    <li><strong>self</strong> will open the link in the same frame</li>
+    <li><strong>parent</strong> will open the link in the parent frame</li>
+    <li><strong>top</strong> will open the link in the full body of the window</li>
+  </ul>
+
+  <p>Another attribute that can be used with the <strong>a</strong> tag is the
+    <strong>rel</strong> attribute. This attribute specifies the relationship
+    between the current document and the linked document.
+  </p>
+
+  <ul>
+    <li><strong>noopener</strong> prevents the opened link from gaining
+      access to the webpage from which it was opened</li>
+    <li><strong>noreferrer</strong> prevents the opened link from knowing
+      which webpage or resource has a link to it</li>
+  </ul>
+
+  <p>This behavior is added for opening links in new tabs due to security.
+    The prevention access of "noopener" prevents phishing attacks.
+    In good practice, it is smart to always pair a <code>target="_blank</code>
+    with a <code>rel="noopener"</code> to prevent any security issues.
+  </p>
+
+  <h5>Absolute and Relative Links</h5>
+  <p>Absolute links link to pages on other websites on the internet.
+    They are usually made up of the following parts:
+    <code>protocol://domain/path</code>, e.g. https://www.google.com.
+    Relative links link other pages within our own website.
+  </p>
+
+  <h5>Image element</h5>
+  <p>The <strong>img</strong> tag is self-closing. It embeds an image into the
+    document. The <strong>src</strong> attribute is used to specify the URL of
+    the image. The <strong>alt</strong> attribute is used to specify the
+    alternative text for the image. The <strong>width</strong> and
+    <strong>height</strong> attributes are used to specify the width and
+    height of the image, respectively.
+  </p>
+
+  <ul>
+    <li>The four formats used: jpg, gif, png, svg</li>
+    <li>Always specify the alt, width, and height</li>
+  </ul>
+
+  <h2>Basic tips to keep in mind</h2>
+  <ul>
+    <li>Always declare the document type</li>
+    <li>Always specify the alt, width, and height for images</li>
+    <li>Always quote attribute values and keep them lower-case</li>
+    <li>Never skpi the title element</li>
+    <li>ALways set the viewport; width and initial-scale</li>
+  </ul>
+
+</body>
+
+</html>
