@@ -1,0 +1,46 @@
+body {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+}
+
+#nasa-logo {
+    width: 150px;
+    height: auto;
+}
+
+.splash-page {
+    text-align: center;
+    background-image: url("../images/andromeda.jpg");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+}
+
+.apply-button {
+    line-height: 24px;
+    padding: 5px 24px;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+    font-family: inherit;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #2980b9;
+}
+
+.header {
+    font-size: 30px;
+    text-shadow: 0px 0px 4px black;
+}
+
+.underline-title {
+    border-bottom: 2px solid white;
+}
+
+.terms {
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+.google-header {
+    margin-top: 100px;
+}
+
+.google-logo {
+    display: block;
+    margin: 100px auto 20px auto;
+    ;
+}
+
+.google-search-bar {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    line-height: 24px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 32px;
+}
+
+.google-search-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 30px 4px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+.learn-more {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
